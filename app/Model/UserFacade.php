@@ -7,7 +7,7 @@ namespace App\Model;
 use Nette;
 use Nette\Security\Passwords;
 
-
+// This class is responsible for managing user-related operations such as authentication and adding new users.
 /**
  * Manages user-related operations such as authentication and adding new users.
  */
