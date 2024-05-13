@@ -1,5 +1,5 @@
 <?php
-namespace App\Presenters;
+namespace App\Module\Admin\Presenters;
 
 use Nette;
 use Nette\Application\UI\Form;

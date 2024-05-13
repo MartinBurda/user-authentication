@@ -37,7 +37,7 @@ final class SignPresenter extends Nette\Application\UI\Presenter
 	{
 		return $this->signInFactory->create(function (): void {
 			$this->restoreRequest($this->backlink); // redirects the user to the previous page if any
-			$this->redirect('Dashboard:'); // or redirects the user to the dashboard
+			$this->redirect('Home:Default'); // or redirects the user to the dashboard
 		});
 	}
 
